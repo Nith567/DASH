@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 
 import { useStoreModal } from '@/hooks/use-store-modal'
 import { Divide } from 'lucide-react';
-function page() {
+function Page() {
   const onOpen = useStoreModal((state) => state.onOpen);
   const isOpen = useStoreModal((e) => e.isOpen);
 
@@ -21,4 +21,4 @@ function page() {
 
 
 
-export default page
+export default Page
